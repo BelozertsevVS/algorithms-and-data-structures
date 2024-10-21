@@ -1,7 +1,10 @@
 package com.ua.algorithmsanddatastructures.lesson4.leetCode1365;
 
 public class Solution1 {
-    public int[] smallerNumbersThanCurrent(int[] nums) {
+    public int[] smallerNumbersThanCurrent1(int[] nums) {
+
+        // Time: O(n^2)
+        // Memo: O(n)
 
         int[] answer = new int[nums.length];
         int counter = 0;

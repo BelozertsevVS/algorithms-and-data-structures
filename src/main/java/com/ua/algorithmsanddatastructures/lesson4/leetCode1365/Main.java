@@ -19,13 +19,15 @@ public class Main {
         0 <= nums[i] <= 100
         */
 
-        Solution1 answer = new Solution1();
-
         int[] nums = {8, 1, 2, 2, 3};
 
-        int[] result = answer.smallerNumbersThanCurrent(nums);
+        Solution1 answer1 = new Solution1();
+        int[] result1 = answer1.smallerNumbersThanCurrent1(nums);
+        System.out.println(Arrays.toString(result1));
 
-        System.out.println(Arrays.toString(result));
+        Solution2 answer2 = new Solution2();
+        int[] result2 = answer2.smallerNumbersThanCurrent2(nums);
+        System.out.println(Arrays.toString(result2));
 
     }
 }
