@@ -21,12 +21,12 @@ public class Main {
 
         int[] nums = {8, 1, 2, 2, 3};
 
-        Solution1 answer1 = new Solution1();
-        int[] result1 = answer1.smallerNumbersThanCurrent1(nums);
+        Solution answer = new Solution();
+        int[] result1 = answer.smallerNumbersThanCurrent1(nums);
         System.out.println(Arrays.toString(result1));
 
-        Solution2 answer2 = new Solution2();
-        int[] result2 = answer2.smallerNumbersThanCurrent2(nums);
+
+        int[] result2 = answer.smallerNumbersThanCurrent2(nums);
         System.out.println(Arrays.toString(result2));
 
     }
